@@ -1,10 +1,11 @@
 import React from "react";
 import L from "leaflet";
-import { Button, rentals } from "@abr-ya/lib-travel-kit-demo";
+import { Button } from "@abr-ya/lib-travel-kit-demo";
 // import classNames from "classnames";
 import { useWindowWidth } from "@react-hook/window-size";
 import useDarkMode from "./hooks/useDarkMode";
 import { Filters, Map } from "./components/";
+import rentals from "./data/rentals";
 
 const App = () => {
   const btnClickHandler = () => console.log("клик!");
