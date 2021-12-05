@@ -10,6 +10,6 @@ body:after {
 
 @media (min-width: 1536px) {
   .leaflet-container {
-    height: calc(100vh - 40px - 24px);
+    height: calc(100vh - 180px); /* -40-24 сейчас: 56 + 66 + 36 */
   }
 }
